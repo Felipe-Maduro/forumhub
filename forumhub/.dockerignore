@@ -1,0 +1,63 @@
+# =========================
+# Build / Maven
+# =========================
+target/
+**/target/
+**/*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# Git
+# =========================
+.git
+.gitmodules
+
+# (mantenha o próprio .gitignore no contexto, se quiser)
+# .gitignore
+
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/
+*.iml
+out/
+
+# =========================
+# SO / Temporários
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Ambientes / Segredos
+# =========================
+.env
+*.env
+.env.*
+!/.env.example
+
+application-local.properties
+application-*.local.properties
+
+# =========================
+# Logs
+# =========================
+logs/
+**/*.log
+
+# =========================
+# Maven Wrapper (não é necessário no build Docker)
+# =========================
+.mvn/
+mvnw
+mvnw.cmd
+
+# =========================
+# Outras pastas comuns de front (caso exista monorepo)
+# =========================
+node_modules/
+dist/
+build/

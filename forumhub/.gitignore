@@ -1,0 +1,77 @@
+# =========================
+# Arquivos auxiliares do projeto
+# =========================
+HELP.md
+
+# =========================
+# Build / Maven
+# =========================
+target/
+**/target/
+**/*.class
+*.jar
+*.war
+*.ear
+
+# =========================
+# IDEs
+# =========================
+# STS
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+
+# Permitir builds dentro de src (normalmente desnecessário, mas mantendo suas exceções)
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# =========================
+# SO / Temporários
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+**/*.log
+
+# =========================
+# Ambientes / Segredos
+# =========================
+.env
+*.env
+.env.*
+# manter exemplo versionado
+!/.env.example
+
+# Propriedades locais não versionadas
+application-local.properties
+application-*.local.properties
